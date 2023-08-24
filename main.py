@@ -112,6 +112,7 @@ def logout():
     logout_user()
     return redirect(url_for('home'))
 
+
 @app.route('/download')
 @login_required
 def download():
